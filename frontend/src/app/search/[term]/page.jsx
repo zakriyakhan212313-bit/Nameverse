@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
-import SearchResultsClient from './ClientComponent';
+import dynamic from 'next/dynamic';
+const SearchResultsClient = dynamic(() => import('./ClientComponent'), { ssr: false });
 
 // Load API URLs from environment variables
 const API_NAMES_BASE = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:5000/api';
