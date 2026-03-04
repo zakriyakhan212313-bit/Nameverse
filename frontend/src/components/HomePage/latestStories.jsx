@@ -115,9 +115,9 @@ const TrendingStories = () => {
     <section className="py-16 md:py-20 px-4 sm:px-6 lg:px-8 w-full bg-gradient-to-br from-gray-50 via-white to-blue-50 relative overflow-hidden">
       {/* Section Header */}
       <div className="text-center mb-12 md:mb-16 relative z-10 max-w-4xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-3 tracking-tight">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-3 tracking-tight">
           Trending Stories
-        </h1>
+        </h2>
         <div className="flex justify-center gap-2 mb-4">
           <span className="h-1 w-12 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"></span>
           <span className="h-1 w-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></span>

@@ -3,38 +3,34 @@ import HomePageClient from "../components/HomePage/Homepage";
 
 // ✅ 100/100 SEO SSR metadata
 export const metadata = {
-  title: "Islamic Names & Stories | Meaning, Origin, and Significance",
-  description: "Find authentic Islamic names with deep meanings, historical origins, and virtues. Explore trending Muslim baby names, Quranic names, and inspiring stories.",
+  title: "NameVerse — Baby Names, Meanings & Origins (Islamic, Hindu, Christian)",
+  description: "Browse 65,000+ baby names with meanings, origins, translations and cultural stories. Fast, curated search for Islamic, Hindu and Christian names with verified meanings.",
   keywords: [
-    "Islamic names", "Muslim baby names", "Quranic names", "Urdu names", "Arabic names", 
-    "Islamic stories", "Islamic origin names", "trending Islamic names", "boys names", 
-    "girls names", "Muslim culture"
+    "baby names", "baby names with meanings", "name meanings", "Islamic baby names", "Hindu baby names", "Christian baby names", "unique baby names", "names a to z", "name translations"
   ],
   openGraph: {
-    title: "Islamic Names & Stories – Discover Meaning, Origin & History",
-    description: "Explore authentic Islamic names and stories with meanings, origins and virtues. Perfect for parents and learners.",
-    url: "https://yourdomain.com/",
+    title: "NameVerse — Baby Names & Meanings | Search 65,000+ Names",
+    description: "Discover the perfect baby name with verified meanings, origins and cultural context across religions and languages.",
+    url: "https://nameverse.vercel.app/",
     type: "website",
-    images: [{ url: "https://yourdomain.com/images/og-image.jpg" }],
+    images: [{ url: "https://nameverse.vercel.app/og-image.png" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Islamic Names & Stories — Meaning, Origin, and Virtues",
-    description: "Discover meaningful Islamic names and fascinating stories behind them.",
-    images: ["https://yourdomain.com/images/og-image.jpg"],
+    title: "NameVerse — Baby Names & Meanings",
+    description: "Search thousands of baby names with meanings, origins and stories.",
+    images: ["https://nameverse.vercel.app/og-image.png"],
   },
   alternates: {
-    canonical: "https://yourdomain.com/",
+    canonical: "https://nameverse.vercel.app/",
     languages: {
-      ur: "https://yourdomain.com/ur/",
-      ar: "https://yourdomain.com/ar/",
-      hi: "https://yourdomain.com/hi/",
-      fr: "https://yourdomain.com/fr/",
-      de: "https://yourdomain.com/de/",
+      ur: "https://nameverse.vercel.app/ur/",
+      ar: "https://nameverse.vercel.app/ar/",
+      hi: "https://nameverse.vercel.app/hi/",
     },
   },
   robots: { index: true, follow: true },
-  authors: [{ name: "Zakriya Khan", url: "https://yourdomain.com/" }],
+  authors: [{ name: "NameVerse", url: "https://nameverse.vercel.app/" }],
   themeColor: "#0f766e",
 };
 
